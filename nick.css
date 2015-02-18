@@ -1,19 +1,28 @@
 body {
+	text-align: center;
 	font-family: Tahoma, Geneva, sans-serif;
-	width: 100%;
-	background-color: #EFEFDF;
+	background-color: #CDCDDE;
+	margin: 0px;
 }
 
 header {
 	text-align: center;
-	font-size: large;
+	font-size: 48px;
 	width: 100%;
+	background-color: #FFFFFF;
 }
 
 section {
-	width: 100%;
-	text-align: center;
-	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 80%;
+
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #DEDEEF;
 }
 
 footer {
@@ -22,12 +31,46 @@ footer {
 	font-size: small;
 }
 
+div {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.section-header {
+	font-size: 170%;
+	font-weight: bold;
+}
+
+
+div.linky {
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	cursor: hand;
+	cursor: pointer;
+
+	border-radius: 7px;
+}
+
+div.linky:hover {
+	background-color: #EFEFFF;
+}
+
+span.button-like {
+	margin: 5px;
+	padding:6px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
 table {
-	width: 80%;
+	margin: auto;
+	width: 100%;
 }
 
 th {
-	background-color: #2244DD;
+	background-color: #112288;
 	color: #FFFFDD;
 	padding: 5px;
 	border-radius: 3px;
@@ -35,19 +78,54 @@ th {
 
 td {
 	padding: 5px;
-	border-radus: 3px;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 2px;
+
+	text-align: center;
+	width: 15%;
 }
 
-td .comp1710 {
+.comp1710 {
+	background-color: #44AAEE;
+	border-color: #3399DD;
+	color: #112266;
 }
 
-td .comp1130 {
+.comp1130 {
+	background-color: #DDEE44;
+	border-color: #CCDD33;
+	color: #221166;
 }
 
-td .math1115 {
+.math1115 {
+	background-color: #44EE55;
+	border-color: #33DD44;
+	color: #116622;
 }
 
-td .econ1101 {
+.econ1101 {
+	background-color: #EE5544;
+	border-color: #DD4433;
+	color: #662211;
 }
 
+.tutorial {
+	opacity: 0.7;
+}
+
+.navmat {
+	background-color: #110077;
+	color: #FFD700;
+	font-weight: bold;
+	border-color: #EE0022;
+	border-style: solid;
+}
+
+.work {
+	background-color: #101020;
+	border-color: #EE5500;
+	color: #EE5500;
+	font-weight: bold;
+}
 
