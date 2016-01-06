@@ -87,28 +87,28 @@ td {
 	border-width: 2px;
 
 	text-align: center;
-	width: 15%
+	width: 12%
 }
 
-.comp1710 {
+.comp2300 {
 	background-color: #44AAEE;
 	border-color: #3399DD;
 	color: #112266;
 }
 
-.comp1130 {
+.comp2550 {
 	background-color: #DDEE44;
 	border-color: #CCDD33;
 	color: #221166;
 }
 
-.math1115 {
+.math1013 {
 	background-color: #44EE55;
 	border-color: #33DD44;
 	color: #116622;
 }
 
-.econ1101 {
+.vcug2002 {
 	background-color: #EE5544;
 	border-color: #DD4433;
 	color: #662211;
@@ -128,8 +128,14 @@ td {
 
 .work {
 	background-color: #101020;
-	border-color: #EE5500;
-	color: #EE5500;
+	border-color: #D6041D;
+	color: #D6041D;
 	font-weight: bold;
 }
 
+.cssa {
+	background-color: #D4D1CD;
+	border-color: #121211;
+	color: #121211;
+	font-weight: bold;
+}
